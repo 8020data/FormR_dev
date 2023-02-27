@@ -1,0 +1,52 @@
+|    Size     | Date Time       |./P09/Master/client3/app08c1/  *
+| ----------  |---------------  |--------------------------------------------------------------------------    
+|           0 |2021-04-24 11:16 |./!_Role Based NavBar Menus    
+|          52 |2021-04-13 18:49 |./.env    
+|         862 |2021-04-06 17:30 |./package.json    
+|           0 |2021-04-24 11:04 |./public    
+|           0 |2021-04-04 13:33 |./public/avatars    
+|        2742 |2021-04-03 17:31 |./public/avatars/fr10403_admin_32x32.png    
+|        2332 |2021-04-03 17:36 |./public/avatars/fr10403_bruce_32x32.png    
+|        2825 |2021-04-03 17:38 |./public/avatars/fr10403_robin_32x32.png    
+|        1996 |2021-03-31 13:56 |./public/favicon-32x32.png    
+|       15086 |2021-03-29 08:39 |./public/favicon.ico    
+|        3167 |2021-04-24 11:04 |./public/index.html    
+|        5347 |2021-03-04 10:01 |./public/logo192.png    
+|        9664 |2021-03-04 10:01 |./public/logo512.png    
+|         517 |2021-03-31 21:52 |./public/manifest.json    
+|          70 |2021-03-14 11:53 |./public/robots.txt    
+|        3439 |2021-03-14 11:53 |./README.md    
+|           0 |2021-04-24 11:04 |./src    
+|         181 |2021-04-06 19:32 |./src/App.css    
+|        1777 |2021-04-17 12:13 |./src/App.js    
+|           0 |2021-04-24 10:46 |./src/components    
+|           0 |2021-04-24 10:46 |./src/components/Access    
+|        4847 |2021-04-15 12:01 |./src/components/Access/ChangeProfileForm.js    
+|        1539 |2021-04-17 12:26 |./src/components/Access/DataEdit.js    
+|        2564 |2021-04-15 12:01 |./src/components/Access/ForgotPasswordForm.js    
+|        3044 |2021-04-24 10:46 |./src/components/Access/LoginForm.js    
+|         407 |2021-04-17 10:49 |./src/components/Access/LogoutPage.js    
+|        1298 |2021-04-24 10:46 |./src/components/Access/ProfilePage.js    
+|        1296 |2021-04-15 12:01 |./src/components/Access/ProfilePage_v10415.js    
+|        8054 |2021-04-22 18:19 |./src/components/Access/ProfilePage_v10422a.js    
+|        7768 |2021-04-23 09:18 |./src/components/Access/ProfilePage_v10422a1.js    
+|        7884 |2021-04-22 18:04 |./src/components/Access/ProfilePage_v10422b.js    
+|        7768 |2021-04-23 09:18 |./src/components/Access/ProfilePage_v10422b1.js    
+|        9051 |2021-04-23 09:42 |./src/components/Access/ProfilePage_v10423-0900.js    
+|        9434 |2021-04-23 09:21 |./src/components/Access/ProfilePage_v10423-0912.js    
+|        4321 |2021-04-15 12:01 |./src/components/Access/RegisterForm.js    
+|        2134 |2021-04-14 20:10 |./src/components/Access/ResetPasswordForm.js    
+|         434 |2021-04-13 18:49 |./src/components/HomePage.js    
+|        4119 |2021-04-24 10:46 |./src/components/NavBar.js    
+|         392 |2021-04-24 11:04 |./src/index.js    
+|           0 |2021-04-24 10:46 |./src/services    
+|         275 |2021-03-14 11:53 |./src/services/authHeader.js    
+|        1718 |2021-04-24 10:46 |./src/services/AuthService.js    
+|        9509 |2021-04-22 18:01 |./src/services/AuthService_v10422a.js    
+|        9280 |2021-04-23 09:19 |./src/services/AuthService_v10422a1.js    
+|        9509 |2021-04-22 18:01 |./src/services/AuthService_v10422b.js    
+|        9280 |2021-04-23 09:19 |./src/services/AuthService_v10422b1.js    
+|        9277 |2021-04-23 09:42 |./src/services/AuthService_v10423-0900.js.js    
+|        9385 |2021-04-23 09:22 |./src/services/AuthService_v10423-0912.js.js    
+|        5226 |2021-03-14 11:53 |./src/serviceWorker.js    
+|             |                 |

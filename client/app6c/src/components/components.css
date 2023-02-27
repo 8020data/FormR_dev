@@ -1,0 +1,117 @@
+label {
+  display: inline;   /* .(01101.05.1 RAM Was: block) */
+  margin-top: 10px;
+  }
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+  }
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  }
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+/*
+.form-check-input {                *//*#.(01201.05.1 RAM Added to reduce size of checkbox - no workie here; see /dist/css/formr-styles.css) *//*
+    position: absolute;
+    margin-top: -.5rem;
+    margin-left: -1.25rem;
+    line-height: 5px;
+    width: 15px;
+    }
+*/
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+    right       :  1em;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\f0de"
+    }
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after  {
+    right       :  16px;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size:     8rem;
+    font-weight :  900;
+    content     : "\f0dd"
+    }
+
+
+table.mdb-dataTable thead .sorting:before,
+table.mdb-dataTable thead .sorting_asc:before,
+table.mdb-dataTable thead .sorting_desc:before,
+table.mdb-dataTable thead .sorting_asc_disabled:before,
+table.mdb-dataTable thead .sorting_desc_disabled:before,
+table thead.mdb-dataTable-head .sorting:before,
+table thead.mdb-dataTable-head .sorting_asc:before,
+table thead.mdb-dataTable-head .sorting_desc:before,
+table thead.mdb-dataTable-head .sorting_asc_disabled:before,
+table thead.mdb-dataTable-head .sorting_desc_disabled:before {
+    left        : -.4rem;
+    font-family : "Font Awesome\\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\\f062";  /* was "\f062" */
+    }
+table.mdb-dataTable thead .sorting:after,
+table.mdb-dataTable thead .sorting_asc:after,
+table.mdb-dataTable thead .sorting_desc:after,
+table.mdb-dataTable thead .sorting_asc_disabled:after,
+table.mdb-dataTable thead .sorting_desc_disabled:after,
+table thead.mdb-dataTable-head .sorting:after,
+table thead.mdb-dataTable-head .sorting_asc:after,
+table thead.mdb-dataTable-head .sorting_desc:after,
+table thead.mdb-dataTable-head .sorting_asc_disabled:after,
+table thead.mdb-dataTable-head .sorting_desc_disabled:after {
+    left        : -.4rem;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\f063";  /* was "\f063" */
+    }
+
+

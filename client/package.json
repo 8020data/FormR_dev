@@ -1,0 +1,51 @@
+{
+  "name": "react-and-formik",
+  "version": "1.8.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.2.6",
+    "framer-motion": "^2.9.5",
+    "mdbreact": "./_3/INSTs/mdbreact-4.27.0.tgz",
+    "mysql2": "^2.2.5",
+    "ra-data-json-server": "^3.11.1",
+    "ra-data-simple-rest": "^3.10.4",
+    "react": "^16.13.1",
+    "react-admin": "^3.11.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.2",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^8.9.0",
+    "sequelize": "^6.3.5",
+    "validator": "^12.2.0",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.6"
+  },
+  "scripts": {
+    "start": "echo npm ERROR: * You must be in an app folder to start app",
+    "test": "echo npm TEST error: No test specified && exit 1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

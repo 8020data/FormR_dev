@@ -1,0 +1,44 @@
+|    Size     | Date Time       |./P08/Master/client0/app06c/  *
+| ----------  |---------------  |--------------------------------------------------------------------------    
+|           0 |2021-02-23 16:09 |./!_React-Redux-JWT-Auth    
+|          52 |2021-02-19 09:13 |./.env    
+|         744 |2021-02-19 09:02 |./package.json    
+|           0 |2021-02-19 08:45 |./public    
+|        3150 |2020-10-04 15:56 |./public/favicon.ico    
+|        1764 |2020-10-04 15:56 |./public/index.html    
+|        5347 |2020-10-04 15:56 |./public/logo192.png    
+|        9664 |2020-10-04 15:56 |./public/logo512.png    
+|         517 |2020-10-04 15:56 |./public/manifest.json    
+|          70 |2020-10-04 15:56 |./public/robots.txt    
+|        1953 |2020-10-04 15:56 |./README.md    
+|           0 |2021-02-19 08:45 |./src    
+|           0 |2021-02-19 08:45 |./src/actions    
+|        1727 |2020-10-04 15:56 |./src/actions/auth.js    
+|         217 |2020-10-04 15:56 |./src/actions/message.js    
+|         313 |2020-10-04 15:56 |./src/actions/types.js    
+|         671 |2020-10-04 15:56 |./src/App.css    
+|        4536 |2020-10-04 15:56 |./src/App.js    
+|           0 |2021-02-19 08:45 |./src/components    
+|         889 |2020-10-04 15:56 |./src/components/board-admin.component.js    
+|         897 |2020-10-04 15:56 |./src/components/board-moderator.component.js    
+|         887 |2020-10-04 15:56 |./src/components/board-user.component.js    
+|         825 |2020-10-04 15:56 |./src/components/home.component.js    
+|        4113 |2020-10-04 15:56 |./src/components/login.component.js    
+|        1227 |2020-10-04 15:56 |./src/components/profile.component.js    
+|        5229 |2020-10-04 15:56 |./src/components/register.component.js    
+|           0 |2021-02-19 08:45 |./src/helpers    
+|          99 |2020-10-04 15:56 |./src/helpers/history.js    
+|         379 |2020-10-04 15:56 |./src/index.css    
+|         592 |2020-10-04 15:56 |./src/index.js    
+|           0 |2021-02-19 08:45 |./src/reducers    
+|         994 |2020-10-04 15:56 |./src/reducers/auth.js    
+|         166 |2020-10-04 15:56 |./src/reducers/index.js    
+|         372 |2020-10-04 15:56 |./src/reducers/message.js    
+|           0 |2021-02-19 08:45 |./src/services    
+|         359 |2020-10-04 15:56 |./src/services/auth-header.js    
+|         775 |2020-10-22 19:30 |./src/services/auth.service.js    
+|         617 |2020-10-22 19:21 |./src/services/user.service.js    
+|        5227 |2020-10-04 15:56 |./src/serviceWorker.js    
+|         260 |2020-10-04 15:56 |./src/setupTests.js    
+|         354 |2020-10-04 15:56 |./src/store.js    
+|             |                 |

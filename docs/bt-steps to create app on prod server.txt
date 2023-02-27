@@ -1,0 +1,51 @@
+1) Create node application i.e. iodd.com 
+------------------------------------------
+const express = require("express");
+
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to IODD..<h1>");
+});
+
+app.listen(5002, () => {
+  console.log("App listening on port 5002!");
+});
+--------------------------------------------
+
+2) Use Bitvise SSL to copy to server /webs/iodd.com
+
+3) Use Bitvise SSL open /etc/nginx/site-available to create new conf i.e. iodd.com.conf
+---------------------------------------------
+server {                                                      
+  listen 80;                                                  
+  server_name iodd.com www.iodd.com;                                    
+
+  root /webs/iodd.com;  
+  
+  location / {
+	proxy_pass http://localhost:5002; 
+	proxy_http_version 1.1;
+	proxy_set_header Upgrade $http_upgrade;
+	proxy_set_header Connection 'upgrade';
+	proxy_set_header Host $host;
+	proxy_cache_bypass $http_upgrade;
+	}
+}
+-------------------------------------------------------
+
+4) Create symbolic link to /etc/nginx/sites-enabled  i.e. iodd.com.conf
+
+$ ln -s /etc/nginx/sites-available/iodd.com.conf /etc/nginx/sites-enabled/iodd.com.conf
+
+$ sudo service nginx restart
+
+5) Point DNS to server
+
+6) from server terminal 
+
+cd /webs/iodd.com
+pm2 start app.js
+pm2 save
+
+7)Test your website

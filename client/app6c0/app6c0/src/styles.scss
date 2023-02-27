@@ -1,0 +1,58 @@
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+    right       :  1em;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\f0de"
+    }
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after  {
+    right       :  16px;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size:     8rem;
+    font-weight :  900;
+    content     : "\f0dd"
+    }
+
+
+table.mdb-dataTable thead .sorting:before,
+table.mdb-dataTable thead .sorting_asc:before,
+table.mdb-dataTable thead .sorting_desc:before,
+table.mdb-dataTable thead .sorting_asc_disabled:before,
+table.mdb-dataTable thead .sorting_desc_disabled:before,
+table thead.mdb-dataTable-head .sorting:before,
+table thead.mdb-dataTable-head .sorting_asc:before,
+table thead.mdb-dataTable-head .sorting_desc:before,
+table thead.mdb-dataTable-head .sorting_asc_disabled:before,
+table thead.mdb-dataTable-head .sorting_desc_disabled:before {
+    left        : -.4rem;
+    font-family : "Font Awesome\\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\\f062";  /* was "\f062" */
+    }
+table.mdb-dataTable thead .sorting:after,
+table.mdb-dataTable thead .sorting_asc:after,
+table.mdb-dataTable thead .sorting_desc:after,
+table.mdb-dataTable thead .sorting_asc_disabled:after,
+table.mdb-dataTable thead .sorting_desc_disabled:after,
+table thead.mdb-dataTable-head .sorting:after,
+table thead.mdb-dataTable-head .sorting_asc:after,
+table thead.mdb-dataTable-head .sorting_desc:after,
+table thead.mdb-dataTable-head .sorting_asc_disabled:after,
+table thead.mdb-dataTable-head .sorting_desc_disabled:after {
+    left        : -.4rem;
+    font-family : "Font Awesome\ 5 Free", sans-serif;
+    font-size   :  8rem;
+    font-weight :  900;
+    content     : "\f063";  /* was "\f063" */
+    }
+
+

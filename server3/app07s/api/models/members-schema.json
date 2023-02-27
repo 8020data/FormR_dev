@@ -1,0 +1,227 @@
+[
+  {
+    "CName": "MemberID",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": "auto_increment"
+  },
+  {
+    "CName": "MemberNo",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "TitleName",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "FirstName",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Middlename",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "LastName",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "PostName",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Company",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Address1",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Address2",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "City",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "State",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Zip",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Country",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Phone1",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Phone2",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Fax",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "WebSite",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Email",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Skills",
+    "Type": "varchar",
+    "Width": 255,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Active",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "Bio",
+    "Type": "varchar",
+    "Width": 1000,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "createdAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "updatedAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "LastUpdated",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  }
+]

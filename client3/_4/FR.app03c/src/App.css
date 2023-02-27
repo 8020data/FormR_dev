@@ -1,0 +1,44 @@
+
+@media (min-width: 768px)  /* when the width is above 768 and under 991 */ 
+  { body:not(.sidebar-mini-md) .content-wrapper
+  , body:not(.sidebar-mini-md) .main-footer
+  , body:not(.sidebar-mini-md) .main-header 
+     { transition:  margin-left .3s ease-in-out;
+       margin-left: 0px;                            /* .(10321.02.1 RAM Was 250px;) */
+       }
+    }  /* eof @media (min-width: 768px) */ 
+
+/*    
+@media (max-width: 991.98px) { *//* when the width is above 991 */ /*
+body:not(.sidebar-mini-md) .content-wrapper, 
+body:not(.sidebar-mini-md) .content-wrapper::before, 
+body:not(.sidebar-mini-md) .main-footer, 
+body:not(.sidebar-mini-md) .main-footer::before, 
+body:not(.sidebar-mini-md) .main-header, 
+body:not(.sidebar-mini-md) .main-header::before {
+
+    margin-left: 0;
+}  
+} 
+    
+*/
+
+.navbar-dark { 
+    background-color: #aa5200; 
+    }
+
+.navbar-expand { 
+    background-color: #00aa2b; 
+    }
+
+.navbar-formr { 
+    background-color: #aa0071; 
+    }    
+
+.my-card { 
+    top:-40px; 
+    }
+
+.my-card-header {              /* No Workie */
+    background-color: green; 
+    }    

@@ -1,0 +1,38 @@
+[
+  {
+    "CName": "userId",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": ""
+  },
+  {
+    "CName": "roleId",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": ""
+  },
+  {
+    "CName": "createdAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  },
+  {
+    "CName": "updatedAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  }
+]

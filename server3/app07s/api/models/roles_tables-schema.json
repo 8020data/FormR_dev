@@ -1,0 +1,74 @@
+[
+  {
+    "CName": "id",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": "auto_increment"
+  },
+  {
+    "CName": "tableId",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "roleId",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "allowInsert",
+    "Type": "tinyint",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "allowUpdate",
+    "Type": "tinyint",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "allowDelete",
+    "Type": "tinyint",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "createdAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  },
+  {
+    "CName": "updatedAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  }
+]

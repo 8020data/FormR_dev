@@ -1,0 +1,50 @@
+{ "Dirlist" :
+   [ "./!_{PN}_${Cust}'s ${ProjName} Apps, {Stg} Stage/"
+
+   ,  "./.git/"
+   ,  "./.vscode/"
+   ,  "./_3/"
+   ,  "./_3/!2)_Runtime Files for ${Cust}'s ${ProjName} Project on {Svr}, {Stg} Stage/"
+   ,  "./_3/JSHs/"
+   ,  "./_3/NJSs/"
+
+   ,  "./client/"
+   ,  "./client/!_{Proj}-client-app/"
+
+   ,  "./client/app02c/"
+   ,  "./client/app02c/!_App01c in Client/"
+   ,  "./client/app02c/node_modules/"
+   ,  "./client/app02c/public/"
+   ,  "./client/app02c/src/"
+   ,  "./client/app02c/src/components/"
+   ,  "./client/app02c/src/services/"
+
+   ,  "./client/node_modules/"
+
+   ,  "./docs/"
+   ,  "./docs/Apps/"
+   ,  "./docs/Apps/images/"
+   ,  "./docs/images/"
+   ,  "./docs/scripts/"
+   ,  "./docs/Setup/"
+
+   ,  "./server/"
+   ,  "./server/!_{Proj}-server-apps/"
+
+   ,  "./server/app01s/"
+   ,  "./server/app01s/!_App01s in Server/"
+   ,  "./server/app01s/api/"
+   ,  "./server/app01s/api/config/"
+   ,  "./server/app01s/api/controllers/"
+   ,  "./server/app01s/api/middleware/"
+   ,  "./server/app01s/api/models/"
+   ,  "./server/app01s/api/routes/"
+
+   ,  "./server/node_modules/"
+      ]
+   }
+
+
+
+
+

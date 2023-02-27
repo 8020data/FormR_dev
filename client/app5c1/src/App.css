@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-field {
+  margin-bottom: 16px;
+}
+
+.input-field input {
+  padding: 8px 12px;
+  border: none;
+  border: 1px solid #808e9b;
+  border-radius: 4px;
+  outline: none;
+}
+.is-invalid {
+  border-color: red !important;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: #0be881;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}

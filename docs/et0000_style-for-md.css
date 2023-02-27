@@ -1,0 +1,58 @@
+body  { font-size  : 15pt;
+        margin-left: 20px;
+        font-family: arial;
+        width      : 1000px; }  /* 10pt is the default size */
+p     { line-height  : 1.2em;  }  /* 1.4em is the default line-height */
+p     { margin       : 0em;    }  /*  .5em is the default top and bottom margin */
+tr    { line-height  : 0.2em;  }  /* 1.4em is the default line-height */
+
+code  { font-size  : 14pt;
+        font-family: monospace;
+        background-color: #EEEEDD;
+        }
+
+.markdown-section h1 { color: blue  !important; }
+.markdown-section h2 { color: green !important; margin-top: -40px !important; margin-bottom: -30px; }
+
+img[src*="#img1"] {
+     width:        600px;
+     margin:       5px  0px 15px 40px;    /* top, right, bottom, left */
+     box-shadow:   5px 10px 12px  4px #888888;
+     }
+
+img[src*="#img2"] {
+     width:        500px;
+     margin:       5px  0px 15px 100px;    /* top, right, bottom, left */
+     box-shadow:   5px 10px 12px  4px #888888;
+     }
+
+img[src*="#img3"] {
+     width:        300px;
+     margin:       5px  0px 15px 40px;    /* top, right, bottom, left */
+     box-shadow:   5px 10px 12px  4px #888888;
+     }
+
+.img4 {
+     width:        640px;
+     max-width:    640px !important;
+     margin:      -25px  0px 15px 10px !important;    /* top, right, bottom, left */
+     box-shadow:   5px 10px 12px  4px #888888;
+     }
+
+.img5 {
+     width:        1480px;
+     max-width:    1480px !important;
+     margin:      -25px  0px 15px 10px !important;    /* top, right, bottom, left */
+     box-shadow:   5px 10px 12px  4px #888888;
+     }
+
+.sidebar-nav li a, .sidebar nav li a {
+     line-height: .8;
+     padding: 0;
+     margin: 0;
+     }
+
+details > summary {
+     font-size: 14px;
+     }
+

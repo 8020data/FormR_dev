@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;               /* do workie if not overwritten by MuiCardHeader-content */
+    color: red !important;         /* no workie */
+    }
+
+CardContent {                      /* no workie */
+    color: green;
+   }
+
+.MuiAppBar-root {                  /* no workie */
+    background-color: #000077;
+    }
+
+.MuiAppBar-colorSecondary {        /* do workie if not overridden by .RaAppBar-toolbar-12 */
+    background-color: black;
+    }
+
+.RaAppBar-toolbar-12 {             /* workie sometimes, because the suffix number may changes with each run */
+    background-color: #0000CC;
+    }
+
+.MuiCardHeader-root {              /* do workie */
+    background-color: green;
+    }
+
+.MuiCardHeader-content {
+    color: yellow;                 /* do workie */
+    font-size: 36px;               /* no workie */
+    }
+
+.MuiCardContent-root {             /* do workie */
+    color: purple;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    }
+

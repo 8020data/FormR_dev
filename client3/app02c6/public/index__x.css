@@ -1,0 +1,19 @@
+
+@media (min-width: 768px)  /* when the width is above 768 and under 992 */ 
+  { body:not(.sidebar-mini-md) .content-wrapper
+  , body:not(.sidebar-mini-md) .main-footer
+  , body:not(.sidebar-mini-md) .main-header 
+     { transition:  margin-left .3s ease-in-out;
+       margin-left: 0px;                            /* .(10321.02.1 RAM Was 250px;) */
+       }
+    }  /* eof @media (min-width: 768px) */ 
+
+
+.navbar-dark { 
+    background-color: #0000AA; 
+    }
+
+.card { 
+    top:-50px; 
+    background-color: #0000AA; 
+    }

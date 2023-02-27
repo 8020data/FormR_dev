@@ -1,0 +1,577 @@
+{
+     "version": "0.2.0",
+     "configurations": [
+     
+         {
+              "type": "pwa-node",
+              "request": "launch",
+              "name": "Run Current NodeJS Script",
+              "skipFiles": [ "<node_internals>/**" ],
+              "program": "${workspaceFolder}\\${file}"
+               },
+           {
+               "type": "node",
+               "request": "launch",
+               "name": "app1s Server",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server\\app1s\\server.js"
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app2c Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app2c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app3c Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app3c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app4c Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app4c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "chrome",
+               "request": "launch",
+               "name": "app4c Chrome",
+               "url": "http://localhost:50324",
+               "webRoot": "${workspaceRoot}/src",
+               "sourceMapPathOverrides": { "webpack:///src/*": "${webRoot}/*" }
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app5c Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app5c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app5c0 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app5c0",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app5c1 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app5c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app5c2 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app5c2",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app5c3 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app5c3",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app6c Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app6c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "chrome",
+               "request": "launch",
+               "name": "app6c Client Chrome",
+               "url": "http://localhost:50326",
+               "webRoot": "${workspaceRoot}/src",
+               "sourceMapPathOverrides": { "webpack:///src/*": "${webRoot}/*" }
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app6c0 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app6c0",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app6c1 Client",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client\\app6c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01.6 Both2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c6",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "both" ]
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "FormR Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\_4\\FR.app02s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s1 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s1\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s2 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s2\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s6 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s6\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s7 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s7\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s8 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app01s8\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app08s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s1 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app08s1\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s2 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app08s2\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s3 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app08s3\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s5 Server2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server2\\app08s5\\server.js"
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app00c Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app00c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c1 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c2 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c2",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c3 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c3",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c4 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c4",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c5 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c5",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c6 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c6",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c7 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c7",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c8 Client2",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client2\\app01c8",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s6 Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app01s6\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app05s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app05s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app04s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app04s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app06s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app06s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app07s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app07s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app08s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s1 Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app08s1\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app08s2 Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app08s2\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app09s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app09s\\server.js"
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app21s Server3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server3\\app21s\\server.js"
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app01c6 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app01c6",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app02c6 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app02c6",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app07c Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app07c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app07c1 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app07c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app07c2 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app07c2",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app08c Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app08c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "chrome",
+               "request": "launch",
+               "name": "app08c Client3 Chrome",
+               "url": "http://localhost:50338",
+               "webRoot": "${workspaceRoot}/src",
+               "sourceMapPathOverrides": { "webpack:///src/*": "${webRoot}/*" }
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app08c1 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app08c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app08c2 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app08c2",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app08c3 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app08c3",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "FormR Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\_4\\FR.app02c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app08c5 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app08c5",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app09c1 Client3",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client3\\app09c1",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "chrome",
+               "request": "launch",
+               "name": "app09c1 Client3 Chrome",
+               "url": "http://localhost:50339",
+               "webRoot": "${workspaceRoot}/src",
+               "sourceMapPathOverrides": { "webpack:///src/*": "${webRoot}/*" }
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app01s Server0",
+               "skipFiles": [ "<node_internals>/**" ],
+               "env": { "DEBUG": "sequelize" },
+               "program": "${workspaceFolder}\\server0\\app01s\\server.js"
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app02c Client0",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client0\\app02c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app00c Client0",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client0\\app00c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app04c Client0",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client0\\app04c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "pwa-node",
+               "request": "launch",
+               "name": "app06c Client0",
+               "skipFiles": [ "<node_internals>/**" ],
+               "cwd": "${workspaceFolder}\\client0\\app06c",
+               "runtimeExecutable": "npm",
+               "runtimeArgs": [ "run-script", "start" ]
+          },
+          {
+               "type": "node",
+               "request": "launch",
+               "name": "app02s sequelizeExamples.js",
+               "skipFiles": [ "<node_internals>/**" ],
+               "program": "${workspaceFolder}\\server\\app02s\\sequelizeExamples.js"
+          },
+     ]
+}

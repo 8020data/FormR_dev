@@ -1,0 +1,28 @@
+{
+    "name": "tutorial",
+    "version": "3.0.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.2",
+        "ra-data-json-server": "^3.9.0",
+        "react": "^17.0.0",
+        "react-admin": "^3.9.0",
+        "react-dom": "^17.0.0",
+        "react-scripts": "^4.0.1"
+    },
+    "scripts": {
+        "start" : "..\\node_modules\\.bin\\react-scripts  start",
+        "build" : "..\\node_modules\\.bin\\react-scripts  build",
+        "test"  : "..\\node_modules\\.bin\\react-scripts  test",
+        "eject" : "..\\node_modules\\.bin\\react-scripts  eject",
+        "client": "..\\node_modules\\.bin\\react-scripts  start",
+        "server": "cd ..\\..\\server3\\app08s && npm start",
+        "both"  : "concurrently \"npm run server\" \"npm start\""
+         },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "CName": "id",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": "auto_increment"
+  },
+  {
+    "CName": "impressions",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "clicks",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "position",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "created_at",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "updated_at",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "0000-00-00 00:00:00",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": ""
+  }
+]

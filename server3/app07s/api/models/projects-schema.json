@@ -1,0 +1,101 @@
+[
+  {
+    "CName": "projectId",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": "auto_increment"
+  },
+  {
+    "CName": "name",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "client",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "clientWeb",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "projectWeb",
+    "Type": "varchar",
+    "Width": 88,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "location",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "projectType",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "industry",
+    "Type": "varchar",
+    "Width": 50,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "description",
+    "Type": "varchar",
+    "Width": 8000,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "createdAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "updatedAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  }
+]

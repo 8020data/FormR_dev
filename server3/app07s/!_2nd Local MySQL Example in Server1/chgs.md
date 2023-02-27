@@ -1,0 +1,2 @@
+- Uses Bruce's local version of MySQL
+- Just two tables: tags and tutorials

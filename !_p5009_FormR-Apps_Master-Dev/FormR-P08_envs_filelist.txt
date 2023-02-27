@@ -1,0 +1,93 @@
+
+    Size       Date Time        ..//*.env*
+ ----------  ----------------  +-------------------------+---------+---------+----------------------------+
+          52  2020-12-13 23:01  ../client/app2c/.env
+          52  2020-12-13 23:01  ../client/app3c/.env
+          52  2020-12-13 23:01  ../client/app4c/.env
+          52  2020-12-13 23:37  ../client/app6c/.env
+          52  2021-02-12 19:11  ../client/app6c0/.env
+          52  2021-02-12 21:25  ../client/app6c1/.env
+          52  2021-02-19 09:13  ../client0/app02c/.env
+          52  2021-02-19 09:13  ../client0/app04c/.env
+          52  2021-02-19 09:13  ../client0/app06c/.env
+          52  2021-02-16 08:38  ../client2/app00c/.env
+          52  2021-02-19 12:09  ../client2/app04c/.env
+          54  2021-01-09 01:46  ../client2/app08c/.env
+          52  2021-02-14 03:40  ../client3/app07c/.env
+          52  2021-02-16 09:22  ../client3/app07c1/.env
+          52  2021-02-16 10:04  ../client3/app07c2/.env
+          65  2021-02-12 17:05  ../server/app1s/.env
+          65  2021-02-19 09:12  ../server0/app01s/.env
+          65  2021-02-19 12:09  ../server2/app01s/.env
+          65  2021-02-13 03:47  ../server2/app06s_v10212/.env
+          65  2021-02-19 13:15  ../server2/app21s/.env
+          67  2021-02-19 12:09  ../server3/app01s/.env
+          67  2021-02-19 12:09  ../server3/app01s.env.bak
+          65  2021-02-19 12:09  ../server3/app05s/.env
+          65  2021-02-19 12:09  ../server3/app06s/.env
+          65  2021-02-19 12:09  ../server3/app08s/.env
+          91  2021-02-19 13:18  ../server3/app09s/.env
+          93  2021-02-19 13:18  ../server3/app21s/.env
+
+
+  Date Time       .ENV FILE for APP            PORT  DBSN          DBSN_4USER        CORS_CLIENT_URL
+----------------  ---------------------------- ----- ------------- ----------------- --------------------------
+2020-12-13 23:01  client/app2c/.env            50322                                 http://localhost:50321
+2020-12-13 23:01  client/app3c/.env            50323                                 http://localhost:50321
+2020-12-13 23:01  client/app4c/.env            50324                                 http://localhost:50321
+2020-12-13 23:37  client/app6c/.env            50326                                 http://localhost:50321
+2021-02-12 19:11  client/app6c0/.env           50360                                 http://localhost:50321
+2021-02-12 21:25  client/app6c1/.env           50361                                 http://localhost:50321
+2021-02-19 09:13  client0/app02c/.env          50332                                 http://localhost:50331
+2021-02-19 09:13  client0/app04c/.env          50334                                 http://localhost:50331
+2021-02-19 09:13  client0/app06c/.env          50336                                 http://localhost:50331
+2021-02-16 08:38  client2/app00c/.env          50300                                 http://localhost:50321
+2021-02-19 12:09  client2/app04c/.env          50334                                 http://localhost:50331
+2021-01-09 01:46  client2/app08c/.env          50308                                 http://localhost:50307
+2021-02-14 03:40  client3/app07c/.env          50370                                 http://localhost:50321
+2021-02-16 09:22  client3/app07c1/.env         50371                                 http://localhost:50321
+2021-02-16 10:04  client3/app07c2/.env         50372                                 http://localhost:50321
+2021-02-12 17:05  server/app1s/.env            50321 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 09:12  server0/app01s/.env          50331 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server2/app01s/.env          50331 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-13 03:47  server2/app06s_v10212/.env   50316 MySQL_AWS_IO                    /localhost:50.+/
+cat: /C/WEBs/8020/IODD/FormR/P08/Master/server2/app21s/.env: No such file or directory
+2021-02-19 13:15  server2/app21s/.env
+2021-02-19 12:09  server3/app01s/.env          50311 MSSQL_Azure_IO                  /localhost:50.+/
+2021-02-19 12:09  server3/app01s.env.bak       50301 MSSQL_Azure_IO                  /localhost:50.+/
+2021-02-19 12:09  server3/app05s/.env          50319 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server3/app06s/.env          50316 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server3/app08s/.env          50308 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 13:18  server3/app09s/.env          50319 MySQL_AWS_IO    MySQL_Local_IO  /localhost:50.+/
+2021-02-19 13:18  server3/app21s/.env          50391 MySQL_Local_IO  MySQL_AWS_IO    /localhost:50.+/
+
+
+  Date Time       .ENV FILE for APP            PORT  DBSN          DBSN_4USER        CORS_CLIENT_URL
+----------------  ---------------------------- ----- ------------- ----------------- --------------------------
+2020-12-13 23:01  client/app2c/.env            50322                                 http://localhost:50321
+2020-12-13 23:01  client/app3c/.env            50323                                 http://localhost:50321
+2020-12-13 23:01  client/app4c/.env            50324                                 http://localhost:50321
+2020-12-13 23:37  client/app6c/.env            50326                                 http://localhost:50321
+2021-02-12 19:11  client/app6c0/.env           50360                                 http://localhost:50321
+2021-02-12 21:25  client/app6c1/.env           50361                                 http://localhost:50321
+2021-02-19 09:13  client0/app02c/.env          50332                                 http://localhost:50331
+2021-02-19 09:13  client0/app04c/.env          50334                                 http://localhost:50331
+2021-02-19 09:13  client0/app06c/.env          50336                                 http://localhost:50331
+2021-02-16 08:38  client2/app00c/.env          50300                                 http://localhost:50321
+2021-02-19 12:09  client2/app04c/.env          50334                                 http://localhost:50331
+2021-01-09 01:46  client2/app08c/.env          50308                                 http://localhost:50307
+2021-02-14 03:40  client3/app07c/.env          50370                                 http://localhost:50321
+2021-02-16 09:22  client3/app07c1/.env         50371                                 http://localhost:50321
+2021-02-16 10:04  client3/app07c2/.env         50372                                 http://localhost:50321
+2021-02-12 17:05  server/app1s/.env            50321 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 09:12  server0/app01s/.env          50331 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server2/app01s/.env          50331 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-13 03:47  server2/app06s_v10212/.env   50316 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 13:15  server2/app21s_v10213/.env   50391 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server3/app01s/.env          50311 MSSQL_Azure_IO                  /localhost:50.+/
+2021-02-19 12:09  server3/app01s.env.bak       50301 MSSQL_Azure_IO                  /localhost:50.+/
+2021-02-19 12:09  server3/app05s/.env          50319 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server3/app06s/.env          50316 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 12:09  server3/app08s/.env          50308 MySQL_AWS_IO                    /localhost:50.+/
+2021-02-19 13:18  server3/app09s/.env          50319 MySQL_AWS_IO    MySQL_Local_IO  /localhost:50.+/
+2021-02-19 13:18  server3/app21s/.env          50391 MySQL_Local_IO  MySQL_AWS_IO    /localhost:50.+/

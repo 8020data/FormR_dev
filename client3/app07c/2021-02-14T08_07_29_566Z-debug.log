@@ -1,0 +1,94 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\robin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'start'
+0 verbose cli ]
+1 info using npm@7.1.2
+2 info using node@v15.4.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:C:\Users\robin\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+5 timing config:load:builtin Completed in 5ms
+6 timing config:load:cli Completed in 3ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:file:C:\WEBs\8020\IODD\FormR\P08\Master\client3\app07c\.npmrc Completed in 0ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:C:\Users\robin\.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:C:\Users\robin\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 16ms
+19 verbose npm-session 259fd3ba4e68b19e
+20 timing npm:load Completed in 30ms
+21 timing command:run-script Completed in 18873ms
+22 timing command:start Completed in 18883ms
+23 verbose stack Error: command failed
+23 verbose stack     at ChildProcess.<anonymous> (C:\Users\robin\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\index.js:64:27)
+23 verbose stack     at ChildProcess.emit (node:events:376:20)
+23 verbose stack     at maybeClose (node:internal/child_process:1063:16)
+23 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:295:5)
+24 verbose pkgid my-app@0.1.0
+25 verbose cwd C:\WEBs\8020\IODD\FormR\P08\Master\client3\app07c
+26 verbose Windows_NT 10.0.19041
+27 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\robin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+28 verbose node v15.4.0
+29 verbose npm  v7.1.2
+30 error code 1
+31 error path C:\WEBs\8020\IODD\FormR\P08\Master\client3\app07c
+32 error command failed
+33 error command C:\WINDOWS\system32\cmd.exe /d /s /c ..\node_modules\.bin\react-scripts  start
+34 verbose exit 1
+
+
+$ ../node_modules/.bin/react-scripts  start
+
+-----------------------------------------------------------------------------------------------------------
+
+Process exited with code 1
+C:\Users\robin\AppData\Roaming\npm\npm.cmd run-script start
+
+> my-app@0.1.0 start
+> ..\node_modules\.bin\react-scripts  start
+
+ c:\Users\robin\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js
+(node:39052) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\postcss-safe-parser\node_modules\postcss\package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ internal/process/warning
+i ?wds?: Project is running at http://172.27.224.37/
+i ?wds?: webpack output is served from
+i ?wds?: Content not from webpack is served from C:\WEBs\8020\IODD\FormR\P08\Master\client3\app07c\public
+i ?wds?: 404s will fallback to /
+Starting the development server...
+
+Failed to compile.
+
+./src/index.scss ( ../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss)
+Cannot find module 'sass'
+Require stack:
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\sass-loader\dist\utils.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\sass-loader\dist\index.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\sass-loader\dist\cjs.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\loader-runner\lib\loadLoader.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\loader-runner\lib\LoaderRunner.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\webpack\lib\NormalModule.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\webpack\lib\NormalModuleFactory.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\webpack\lib\Compiler.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\webpack\lib\webpack.js
+- C:\WEBs\8020\IODD\FormR\P08\Master\client3\node_modules\react-scripts\scripts\start.js
+Compiling...
+
+
+
+./src/index.scss (
+
+  ../node_modules/css-loader/dist/cjs.js   ??ref--5-oneOf-6-1!
+  ../node_modules/postcss-loader/src       ??postcss!
+  ../node_modules/resolve-url-loader       ??ref--5-oneOf-6-3!
+  ../node_modules/sass-loader/dist/cjs.js  ??ref--5-oneOf-6-4!
+  ./src/index.scss
+
+  )

@@ -1,0 +1,38 @@
+[
+  {
+    "CName": "id",
+    "Type": "int",
+    "Width": null,
+    "DefaultVal": null,
+    "Nullable": "NO",
+    "KeyCol": "PRI",
+    "Extra": "auto_increment"
+  },
+  {
+    "CName": "name",
+    "Type": "varchar",
+    "Width": 255,
+    "DefaultVal": null,
+    "Nullable": "YES",
+    "KeyCol": "",
+    "Extra": ""
+  },
+  {
+    "CName": "createdAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  },
+  {
+    "CName": "updatedAt",
+    "Type": "timestamp",
+    "Width": null,
+    "DefaultVal": "CURRENT_TIMESTAMP",
+    "Nullable": "NO",
+    "KeyCol": "",
+    "Extra": "on update CURRENT_TIMESTAMP"
+  }
+]

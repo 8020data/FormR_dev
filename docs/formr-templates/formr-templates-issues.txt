@@ -1,0 +1,14 @@
+1. What to do about Published and Submitted - Remove them? Yes.
+
+2. LastName What to do about Search.  onChangeSearch<<SearchName>>
+
+3. What to do about list-component, which columns to show on grid, which to search
+
+4. How to handle Id's. Different names: id, MemberId -- not an issue
+
+5. How to handle Labels when column names are lowercase
+
+6. Now everything (table name and column names) is lower case -- thi ok
+
+7. Should we mix singular and plural? ie member vs members -- table name plural
+

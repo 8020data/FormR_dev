@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+dist/
+plugins/
+plugins-unused/
+
+# cache files
+package-lock.json
+.eslintcache*
+
+# database connections
+db.config*
+my.config.json
+db.custom*
+
+# robin's files
+*_v[0-9]*
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+docs/scripts/setFORMR_HOME.cmd

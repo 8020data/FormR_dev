@@ -1,0 +1,127 @@
+
+    Size       Date Time        ./*test*
+ ----------  ----------------  +-------------------------+---------+---------+----------------------------+
+           0  2021-03-29 18:21  ./client3/app08c1/!_React-Admin Test Apps in Client2
+           0  2021-03-04 13:01  ./client3/app08c_v10330/!_React-Admin Test Apps in Client2
+
+         289  2021-03-04 10:01  ./docs/Apps/test.md
+       44745  2021-03-04 10:01  ./docs/images/et0102-01_Node-test-terminal.png
+       41813  2021-03-04 10:01  ./docs/images/et0102-02_Node-test.png
+
+          88  2021-03-04 10:01  ./docs/test.md
+           0  2021-03-31 21:38  ./docs/Tests_v0
+         211  2021-03-23 18:32  ./docs/Tests_v0/app00c1/App.01.test.js
+         254  2021-03-04 10:01  ./docs/Tests_v0/app00c1/App.test.js
+         246  2021-03-04 10:01  ./docs/Tests_v0/app00c1/setupTests.js
+        1797  2021-03-14 11:53  ./docs/Tests_v0/app01s/login-test.njs
+        2274  2021-03-14 11:53  ./docs/Tests_v0/app01s/register-test.njs
+        1366  2021-03-04 10:01  ./docs/Tests_v0/app01s/signin-test.js
+        1469  2021-03-04 10:01  ./docs/Tests_v0/app01s/signup-test.js
+        3162  2021-03-14 11:53  ./docs/Tests_v0/app01s/user-test.njs
+        2638  2021-03-05 16:23  ./docs/Tests_v0/app01s1/admin-test.njs
+        1797  2021-03-05 16:23  ./docs/Tests_v0/app01s1/login-test.njs
+        2274  2021-03-10 11:02  ./docs/Tests_v0/app01s1/register-test.njs
+        1366  2021-02-19 09:49  ./docs/Tests_v0/app01s1/signin-test.js
+        1469  2021-02-19 09:49  ./docs/Tests_v0/app01s1/signup-test.js
+           0  2021-03-04 10:01  ./docs/Tests_v0/app04s/tests
+        2492  2021-03-04 10:01  ./docs/Tests_v0/app04s/tests/admin-test.njs
+        1631  2021-03-04 10:01  ./docs/Tests_v0/app04s/tests/login-test.njs
+        2109  2021-03-04 10:01  ./docs/Tests_v0/app04s/tests/register-test.njs
+         104  2021-03-04 10:01  ./docs/Tests_v0/app07c/App.test.js
+         260  2021-03-04 10:01  ./docs/Tests_v0/app07c/setupTests.js
+        4348  2021-03-04 10:01  ./docs/Tests_v0/app07s/test-schema.json
+         699  2021-03-04 10:01  ./docs/Tests_v0/app07s/testModel.json
+       20927  2021-03-04 10:01  ./docs/Tests_v0/app07s/testModel.njs
+        2909  2021-03-04 10:01  ./docs/Tests_v0/app07s/testModel_schema.json
+        2926  2021-03-04 10:01  ./docs/Tests_v0/app07s/testModel_schema.njs
+           0  2021-03-31 18:58  ./docs/Tests_v0/app08s/tests
+           0  2021-03-27 17:12  ./docs/Tests_v0/app08s/tests/tests
+        4114  2021-03-26 11:07  ./docs/Tests_v0/app08s/tests/tests/login-test-failed.html
+        1802  2021-03-26 14:11  ./docs/Tests_v0/app08s/tests/tests/login-test.njs
+        2274  2021-03-14 11:53  ./docs/Tests_v0/app08s/tests/tests/register-test.njs
+        3162  2021-03-14 11:53  ./docs/Tests_v0/app08s/tests/tests/user-auth-test.njs
+        2404  2021-03-15 16:50  ./docs/Tests_v0/app08s/tests/tests/user-delete-test.njs
+        2893  2021-03-15 16:49  ./docs/Tests_v0/app08s/tests/tests/user-update-test.njs
+           0  2021-03-31 18:58  ./docs/Tests_v0/app08s1/tests
+           0  2021-03-31 09:24  ./docs/Tests_v0/app08s1/tests/tests
+        2802  2021-03-31 10:00  ./docs/Tests_v0/app08s1/tests/tests/city-getAll-test.njs
+        2664  2021-03-31 09:25  ./docs/Tests_v0/app08s1/tests/tests/city-getOne-test.njs
+        2893  2021-03-30 21:50  ./docs/Tests_v0/app08s1/tests/tests/city-update-test.njs
+        1802  2021-03-26 14:11  ./docs/Tests_v0/app08s1/tests/tests/login-test.njs
+        2274  2021-03-14 11:53  ./docs/Tests_v0/app08s1/tests/tests/register-test.njs
+        3162  2021-03-14 11:53  ./docs/Tests_v0/app08s1/tests/tests/user-auth-test.njs
+        2392  2021-03-30 21:36  ./docs/Tests_v0/app08s1/tests/tests/user-delete-test.njs
+           0  2021-03-31 18:58  ./docs/Tests_v0/app08s2/api/tests
+           0  2021-03-29 09:30  ./docs/Tests_v0/app08s2/api/tests/tests
+           0  2021-03-31 18:58  ./docs/Tests_v0/app08s2/tests
+           0  2021-03-27 17:11  ./docs/Tests_v0/app08s2/tests/tests
+           0  2021-03-31 18:58  ./docs/Tests_v0/app08s3/tests
+           0  2021-03-29 09:26  ./docs/Tests_v0/app08s3/tests/tests
+       10564  2021-03-04 10:01  ./docs/Tests_v0/app1s/testMembers.mjs
+        8724  2021-03-04 10:01  ./docs/Tests_v0/app1s/testMembers_class.js
+           0  2021-03-31 18:58  ./docs/Tests_v0/app1s/testScripts
+         578  2021-03-04 10:01  ./docs/Tests_v0/app1s/testScripts/server/app04s/ms01-testConnection-local.js
+         600  2021-03-04 10:01  ./docs/Tests_v0/app1s/testScripts/server/app04s/ms02-testConnection-azure.js
+         480  2021-03-04 10:01  ./docs/Tests_v0/app1s/testScripts/server/app04s/my01-testConnection-local.js
+         494  2021-03-04 10:01  ./docs/Tests_v0/app1s/testScripts/server/app04s/my02-testConnection-aws.js
+           0  2021-03-31 19:03  ./docs/Tests_v0/app1s/testScripts/server/app1s/testScripts
+         938  2021-03-04 10:01  ./docs/Tests_v0/app1s/testSQL.js
+        8192  2021-03-04 10:01  ./docs/Tests_v0/app1s/testTutorials.mjs
+        8746  2021-03-04 10:01  ./docs/Tests_v0/app1s/testTutorials_class.js
+         260  2021-03-04 10:01  ./docs/Tests_v0/app3c/setupTests.js
+         289  2021-03-04 10:01  ./docs/Tests_v0/app5c/App.test (2).js
+         254  2021-03-04 10:01  ./docs/Tests_v0/app5c/App.test.js
+         260  2021-03-04 10:01  ./docs/Tests_v0/app5c/setupTests (2).js
+         246  2021-03-04 10:01  ./docs/Tests_v0/app5c/setupTests.js
+        1417  2021-03-31 18:58  ./docs/Tests_v0/mvTests.sh
+           0  2021-03-31 18:53  ./docs/Tests_v0/testScripts
+        2492  2021-03-04 10:01  ./docs/Tests_v0/testScripts/admin-test.njs
+        1631  2021-03-04 10:01  ./docs/Tests_v0/testScripts/login-test.njs
+        1424  2021-03-31 18:53  ./docs/Tests_v0/testScripts/mvTests.sh
+        2109  2021-03-04 10:01  ./docs/Tests_v0/testScripts/register-test.njs
+       10564  2021-03-04 10:01  ./docs/Tests_v0/testScripts/testMembers.mjs
+        8724  2021-03-04 10:01  ./docs/Tests_v0/testScripts/testMembers_class.js
+         938  2021-03-04 10:01  ./docs/Tests_v0/testScripts/testSQL.js
+        8192  2021-03-04 10:01  ./docs/Tests_v0/testScripts/testTutorials.mjs
+        8746  2021-03-04 10:01  ./docs/Tests_v0/testScripts/testTutorials_class.js
+
+         578  2021-03-31 19:06  ./server/app04s/ms01-testConnection-local.js
+         600  2021-03-31 19:06  ./server/app04s/ms02-testConnection-azure.js
+         480  2021-03-31 19:06  ./server/app04s/my01-testConnection-local.js
+         494  2021-03-31 19:06  ./server/app04s/my02-testConnection-aws.js
+           0  2021-03-31 19:06  ./server/app1s/testScripts
+       10564  2021-03-31 19:06  ./server/app1s/testScripts/testMembers.mjs
+        8724  2021-03-31 19:06  ./server/app1s/testScripts/testMembers_class.js
+         938  2021-03-31 19:06  ./server/app1s/testScripts/testSQL.js
+        8192  2021-03-31 19:06  ./server/app1s/testScripts/testTutorials.mjs
+        8746  2021-03-31 19:06  ./server/app1s/testScripts/testTutorials_class.js
+
+        2638  2021-03-09 10:15  ./server0/app01s/admin-test.njs
+           0  2021-03-31 19:13  ./server2/app08s1/tests
+        2802  2021-03-31 19:13  ./server2/app08s1/tests/city-getAll-test.njs
+        2664  2021-03-31 19:13  ./server2/app08s1/tests/city-getOne-test.njs
+        2893  2021-03-31 19:13  ./server2/app08s1/tests/city-update-test.njs
+        1802  2021-03-31 19:13  ./server2/app08s1/tests/login-test.njs
+        2274  2021-03-31 19:13  ./server2/app08s1/tests/register-test.njs
+        3162  2021-03-31 19:13  ./server2/app08s1/tests/user-auth-test.njs
+        2392  2021-03-31 19:13  ./server2/app08s1/tests/user-delete-test.njs
+           0  2021-03-31 19:13  ./server3/app01s/testScripts
+       10564  2021-03-31 19:13  ./server3/app01s/testScripts/testMembers.mjs
+        8724  2021-03-31 19:13  ./server3/app01s/testScripts/testMembers_class.js
+         938  2021-03-31 19:13  ./server3/app01s/testScripts/testSQL.js
+        8192  2021-03-31 19:13  ./server3/app01s/testScripts/testTutorials.mjs
+        8746  2021-03-31 19:13  ./server3/app01s/testScripts/testTutorials_class.js
+           0  2021-03-31 19:13  ./server3/app04s/tests
+        2492  2021-03-31 19:13  ./server3/app04s/tests/admin-test.njs
+        1631  2021-03-31 19:13  ./server3/app04s/tests/login-test.njs
+        2109  2021-03-31 19:13  ./server3/app04s/tests/register-test.njs
+        2551  2021-03-04 10:01  ./server3/app07s/api/models/test.model.js
+        9764  2021-03-04 10:01  ./server3/app07s/api/models/testModel.js
+           0  2021-03-31 19:13  ./server3/app08s/tests
+        4114  2021-03-31 19:13  ./server3/app08s/tests/login-test-failed.html
+        1802  2021-03-31 19:13  ./server3/app08s/tests/login-test.njs
+        2274  2021-03-31 19:13  ./server3/app08s/tests/register-test.njs
+        3162  2021-03-31 19:13  ./server3/app08s/tests/user-auth-test.njs
+        2404  2021-03-31 19:13  ./server3/app08s/tests/user-delete-test.njs
+        2893  2021-03-31 19:13  ./server3/app08s/tests/user-update-test.njs
+

@@ -1,0 +1,30 @@
+
+
+         { "ModelName": "user"
+         , "TableName": "users"
+         , "Schema"   :
+             { "ColName(12)" :[ "DataType(12)", "Label(16)"       , "FormType(12)", "Format(11)"             , "OtherParms()" ]
+             , "id"          :[ "int"         , "Id"              , "id"          , "R10"                    , "NOT NULL INCREMENT PRIMARY KEY" ]
+             , "name"        :[ "varchar(255)", "Name"            , "text"        , "L15"                    , "" ]
+             , "createdAt"   :[ "timestamp"   , "CreatedAt"       , "timestamp"   , "R19 yyyy-mm-dd hh:mm:ss", "NOT NULL" ]
+             , "updatedAt"   :[ "timestamp"   , "UpdatedAt"       , "timestamp"   , "R19 yyyy-mm-dd hh:mm:ss", "NOT NULL" ]
+
+
+
+
+
+
+                }
+         , "HelpMessages":
+             { "id"          :  "Role Primary Key"
+             , "name"        :  "Role Name"
+             , "createdAt"   :  "Date Role was Created"
+             , "updatedAt"   :  "Date Role was Last Updated"
+
+
+
+
+
+
+                }
+            }

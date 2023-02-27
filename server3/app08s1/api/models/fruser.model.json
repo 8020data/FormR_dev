@@ -1,0 +1,28 @@
+  { "ModelName": "user"
+  , "TableName": "users"
+  , "Schema"   :
+      { "ColName(12)" :[ "DataType(12)", "Label(16)"       , "FormType(12)", "Format(11)"             , "OtherParms()" ]
+      , "id"          :[ "int"         , "Id"              , "id"          , "R10"                    , "NOT NULL INCREMENT PRIMARY KEY" ]
+      , "username"    :[ "varchar(255)", "Username"        , "text"        , "L255"                   , "" ]
+      , "email"       :[ "varchar(255)", "Email"           , "email"       , "L40"                    , "" ]
+      , "password"    :[ "varchar(255)", "Password"        , "password"    , "L25"                    , "" ]
+      , "active"      :[ "varchar(3)"  , "Active"          , "text"        , "L03"                    , "" ]
+      , "group"       :[ "varchar(100)", "Group"           , "text"        , "L100"                   , "" ]
+      , "role"        :[ "varchar(45)" , "Role"            , "text"        , "L45"                    , "" ]
+      , "passworddate":[ "date"        , "Passworddate"    , "password"    , "L25"                    , "" ]
+      , "createdAt"   :[ "date"        , "CreatedAt"       , "timestamp"   , "R19 yyyy-mm-dd hh:mm:ss", "NOT NULL" ]
+      , "updatedAt"   :[ "date"        , "UpdatedAt"       , "timestamp"   , "R19 yyyy-mm-dd hh:mm:ss", "NOT NULL" ]
+         },   
+    "HelpMessages": 
+      { "id"          : "User's Primary Key"
+      , "username"    : "User's User ID"
+      , "email"       : "User's Email Address"
+      , "password"    : "User's Password"
+      , "group"       : "User's Group"
+      , "role"        : "User's Role"
+      , "active"      : "User is Active (Yes/No)"
+      , "passworddate": "Date of Last Password Change"
+      , "createdAt"   : "Date User was Created"
+      , "updatedAt"   : "Date User was Last Updated"
+         }     
+     }

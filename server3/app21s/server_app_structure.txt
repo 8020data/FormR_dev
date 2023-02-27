@@ -1,0 +1,18 @@
+
+${aTable}.controllers.jns
+------------------------------------
+
+   _controller.fns.getControllers(  { aTable, aModel, pRoutes, pControllers, pOptions }, aShowEm )
+   _controller.fns.getControllers(    pModule,   aShowEm   )
+
+       _controller.fns.setControllersRoutes( '_default' )                                        // get default controller routes if not in pTableRoutes
+       _controller.fns.setControllersRoutes( aTable, aModel, pRoutes,  pControllers )            // merge routroller routes with default controller routes
+       _controller.fns.setControllersRoutes( aTable, aModel, pRoutes_, pControllers_ )
+
+           var pControllers = _controller.fns.renControllerFns( aModel, pControllers_ )          // change controller function names to ActionNames: `${aModel}.controller.${aAction}`
+               pTableRoutes[ aTable ] = _routes.fns.fixTableRoutes( aTable, aModel, pRoutes_ )   // change route keys and controller names in pTableRoutes
+               pTableRoutes[ aTable ] = _routes.fns.fixTableRoutes( aTable, aModel, pRoutes_ )   // change route keys and controller names in pTableRoutes
+                                        _routes.fns.fixTableRoutes( aTable, aModel, pRoutes  )
+
+               pTableRoutes[ aTable ] = _routes.fns.useTableRoutes( pTableRoutes, aTable, aCmd ) // merge default controller routes with table routes
+                                        _routes.fns.useTableRoutes( pTableRoutes, aTable, aCmd )

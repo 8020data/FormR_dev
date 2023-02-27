@@ -1,0 +1,6 @@
+.App {
+    border  :   1px solid;
+    margin  :  15px 20px;           /* top/bottom right/left */
+    padding :   10px 15px 12px;     /* top right/left bottom */
+    width   : 250px;
+    }
