@@ -2,11 +2,11 @@ const dbConfig = require("./db.config.js");
 const Sequelize = require("sequelize");
 const sequelize = require( './__sequelize.js' )  // .(01221.02.2 RAM Require( path ) is NodeJS's original method of importing modules)
 
-testConnection();
+CreateTable_sync_bulkload();
 
 // ---------------------------------------------------------------
 
-async function testConnection() {
+async function CreateTable_sync_bulkload() {
 
   // ---------------------------------------------------------------
 

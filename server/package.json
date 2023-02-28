@@ -28,7 +28,7 @@
     "jsonwebtoken": "^9.0.0",
     "mssql": "^6.2.3",
     "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
+    "mysql2": "^3.1.2",
     "sequelize": "^6.29.0",
     "sequelize-msnodesqlv8": "^0.2.6-beta.8",
     "tedious": "^9.2.1"
