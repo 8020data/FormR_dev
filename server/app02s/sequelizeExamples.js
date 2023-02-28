@@ -2,8 +2,8 @@ const Sequelize = require("sequelize");
 const sequelize = require("./sequelizeConnect.js");
 // Run from terminal > node sequelizeExamples.js
 
-//`authenticate_Connection`(); // Note: in db.config.js set DB=""
-//CreateDatabase_query_query();
+//authenticate_Connection(); // Note: in db.config.js set DB=""
+//CreateDatabase_query();
 //CreateTable_sync_timestamps();
 //dropTable();
 //CreateTable_sync_no_timestamps();
@@ -32,7 +32,7 @@ const sequelize = require("./sequelizeConnect.js");
 //Create_users2tasks();
 //Add_Data_users2tasks();
 //user_hasMany_task();
-task_belongsTo_user();
+//task_belongsTo_user();
 
 // ---------------------------------------------------------------
 async function authenticate_Connection() {
