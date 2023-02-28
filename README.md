@@ -1,4 +1,4 @@
-# FormR 
+# formR
 ## Rapid Application Development for Forms
 ### Using Sequelize, Express, React and Node (SERN stack)
 #### With Formik, Yup, AdminLTE UI and JWT Authentication
@@ -16,8 +16,8 @@ Client
     FormR
 
 ToDo:
-    Client 
-        Add Email function 
+    Client
+        Add Email function
         Don't send passwords in  the clear
     Server support for: change password, change profile
     Combine Auth with DataEdit
